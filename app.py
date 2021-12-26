@@ -1,6 +1,5 @@
 #Các thư viện cần thiết
 from flask import Flask, render_template, request, url_for
-import pickle
 import pandas as pd
 import re
 import spacy
