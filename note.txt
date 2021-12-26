@@ -1,0 +1,2 @@
+- Đồ án sử dụng 3 giải thuật là Naive Bayes, svm, Logistic regression
+- Chưa sử dụng Bert

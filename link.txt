@@ -1,0 +1,3 @@
+Dataset: https://raw.githubusercontent.com/ltdaovn/Machine-Learning-Retraining-Approaches/main/smsspamcollection/SMSSpamCollection
+
+Mô tả: https://raw.githubusercontent.com/ltdaovn/Machine-Learning-Retraining-Approaches/main/smsspamcollection/readme
