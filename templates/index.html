@@ -11,7 +11,7 @@
         <session class="title py-5">
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
-                <h1 class="display-5 text-center">Spam mail classification with Linear Support Vector Classification</h1>
+                <h1 class="display-5 text-center">Spam SMS classification with Linear Support Vector Classification</h1>
               </div>
             </div>
         </session>
@@ -22,7 +22,7 @@
                     <div class="col-md-10">
                         <form action="{{ url_for('predict') }}" method="post">
                             <div class="form-group">
-                                <label for="mail">Type your email content here:</label>
+                                <label for="mail">Type your sms content here:</label>
                                 <textarea id="mail" name="mail" class="form-control" rows="5">{{ value }}</textarea>
                             </div>
                             <div class="form-group">
@@ -35,7 +35,7 @@
                         {% endif %}
 
                         {% if data == 1: %}
-                        <div class="alert alert-warning">It's a spam mail</div>
+                        <div class="alert alert-warning">It's a spam sms </div>
                         {% elif data == 0: %}
                         <div class="alert alert-success">It's a ham (OK that's good)</div>
                         {% endif %}
